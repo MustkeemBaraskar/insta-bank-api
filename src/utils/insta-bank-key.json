@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "insta-bank",
+  "private_key_id": "74163f0ed0533ce1f5a06fbcb559d1305d09ae4b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQChnCHoKMsRzrlz\nEYV/e3xNzZPdgmqPwE5W+s+hYhMbg6V+OMTnvS+IMW6Ag1YEGvvsJw33ZfuGbPJf\n9Q3l90bs/XxPH5UwKraTrBEFWDl1fWOtMWI28dA0eiYrnE6wxwNQXyPpoh5dB1tZ\nCPeZB0fxp7sgoGZ9GK+Ocnv2cOcK4EDEfkTq+FjvLqLFDvJCuTPmbz+BQsAq7ZcL\nZndPObFA+tdH3As4mYFAB+4ULo3dkrlb/xLuHRv9GwHUQ5LUdOLYjbm8oRPcUrIe\nYr9bt1ftq0orioucNgpDBg9szG7hU3s+vYQtdTBo/FLRmGe7td0HpHaJ0zjV+a2a\nzUOtV9PbAgMBAAECggEAAKI9G8z1Jue5oHLkJCDW1vNEbizxwAiQBhVLtSVOT+BP\nSNRuKT57rjwLY+Of9bopXL62dk7nEprgxHGQkWNL2ugPkbvc+Ohh+OhG1M+IwiYw\nuuAjs3V1TI9iEO+2+0h8gdctq9/f4JuDxzCaz/XQWWk/+ZvHaxwqrBNU2x2MOmWv\nISAnWFyRVP+FCmv0ZJ9PxbEX4Lttx53Pu1sw//LYU8AXOf2JzUL4USBYr/dQ42L6\nbeiKUo3+EV5NJzFEcOmjws71rXlnBbz8D+wEKnLuetWdLWe7Ub5UvnTFxqcWUWgk\nUrN/B4SFQXgwycQfNe57ogcoU8G1nGNAcNdfToxwqQKBgQDfhq78i+ja5Z7xZX1p\nRjqzzEMGHYT1tPOinXe+N0PQYMFFepN9TBPzPSOzQDpdvtQGnNswxrw/UfxRJa4y\nNP04JqS/F97LcfpukeAZDM8g9ppDfWRmb/qLCS7koQYE874b0J8QSS+OE/rbVSLj\nwz94hVMI0e0RcmMJoiFb4WEZdwKBgQC5Fq3xMlKJbVHlOreSX2cyZwHR99sqCs3H\ncABMYNS7bUGPupd0OXMMa9F9QYXD1yh4FtP2+j1gyqCpN6CzHuOSV4rcU/6NAb8P\n2CLvjo+hyCfswyhpblLrBIg+S2nOCwI3vfzaeiL++ulNsVenxvZUD/lq0MPrhpbP\ntR9OeYnxvQKBgQDW3qphvMCXg7nZhV0cENWnNsiLHV9Nrqexfzu3T3rR2eCQQHd9\nL9/Rp8kkq64vpZw9yxTte21EVTR+cQFV5BgynPsrcu/JlARPu8y3Z9fIcSXzkJst\n2aD3fFlmj9+wbPon1NDDIAclxdEUfG+wkGT4Hvml9d61McdAYGk+4JWtmwKBgQCt\no6w9qnMqQGfjQKm1ZVFgRKi9feSbVZVl9BojjXgl+cLW/ztVKwxW69OVyeGfL/vk\nZa4ndu4cHxyIhAp74I+o2/4G47ncOXYwfBmSWlE/epKSGSiReJHLr+3NW1yAk21a\nNB/CK3EneudjHuvYF91CUdYxMneLPzG+3PHo4jbalQKBgDmL95QZ0TJZ52UCw8ni\nVMPm1P7kLuq1M0us171ZDZwt0zG8MlkqFFsS+mssQ/jZkb4nF0AMxhtm0TnlISVR\nsrnzMKKqTL2kig6ReuBaebjiZMf75bcy9VWcE15GLRVHNFngMVS9ivI+FwlCLM6n\ntFnYuuPFHq5MaCO89vRizriH\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-3496l@insta-bank.iam.gserviceaccount.com",
+  "client_id": "100593844154048736930",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-3496l%40insta-bank.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
