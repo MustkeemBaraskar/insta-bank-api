@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const authRoute = require('./api/auth');
-// const clientRoute = require('./api/clients');
 const errorMiddleware = require('./middlewares/errorMiddleware');
 
 const app = express();
@@ -11,9 +10,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use('/auth', authRoute);
 
-// app.use('/clients', clientRoute);
 
-// Error handling middleware
 app.use(errorMiddleware);
 
 app.listen(PORT, () => {
