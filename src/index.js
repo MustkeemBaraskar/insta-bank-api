@@ -5,6 +5,10 @@ const userRoute = require('./api/users');
 const errorMiddleware = require('./middlewares/errorMiddleware');
 
 const app = express();
+
+app.get('/', (req, res)=>{
+  res.send("Hello from insta-bank");
+})
 app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 3000;
