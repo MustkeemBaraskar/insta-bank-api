@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const authRoute = require('./api/auth');
+const userRoute = require('./api/users');
 const errorMiddleware = require('./middlewares/errorMiddleware');
 
 const app = express();
@@ -9,7 +10,7 @@ app.use(bodyParser.json());
 const PORT = process.env.PORT || 3000;
 
 app.use('/auth', authRoute);
-
+app.use('/user', userRoute);
 
 app.use(errorMiddleware);
 

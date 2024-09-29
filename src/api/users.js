@@ -1,10 +1,9 @@
- 
+const getAccountBalance = require('../controllers/accountController');
 const express = require("express");
-const userController = require("../../controllers/clientController");
 
 const router = express.Router();
 
-// User registration
-router.post("/register", userController.addUser);
+
+router.post("/get-balance", getAccountBalance);
 
 module.exports = router;

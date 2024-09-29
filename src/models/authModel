@@ -13,6 +13,7 @@ const registerSchema = Joi.object({
         'string.pattern.base': 'Password must have at least one uppercase letter, one lowercase letter, one digit, one special character, and be at least 6 characters long.',
         'string.empty': 'Password cannot be empty.',
       }),
+      upiPassword: Joi.string().pattern(/^[0-9]{4}$/).required()
   });
   
   const loginSchema = Joi.object({
