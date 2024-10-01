@@ -2,13 +2,12 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const authRoute = require('./api/auth');
 const userRoute = require('./api/users');
+const healthCheckRoute = require('./api/healthCheck');
 const errorMiddleware = require('./middlewares/errorMiddleware');
 
 const app = express();
 
-app.get('/', (req, res)=>{
-  res.send("Hello from Insta-Bank");
-})
+app.use('/', healthCheckRoute);
 app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 3000;
