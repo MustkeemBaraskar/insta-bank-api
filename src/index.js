@@ -7,7 +7,7 @@ const errorMiddleware = require('./middlewares/errorMiddleware');
 const app = express();
 
 app.get('/', (req, res)=>{
-  res.send("Hello from insta-bank");
+  res.send("Hello from Insta-Bank");
 })
 app.use(bodyParser.json());
 
