@@ -3,7 +3,7 @@ const serviceAccount = require("../utils/insta-bank-key.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://your-database-name.firebaseio.com"
+  databaseURL: "https://insta-bank-default-rtdb.asia-southeast1.firebasedatabase.app"
 });
 
 const db = admin.firestore();
