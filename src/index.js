@@ -4,8 +4,10 @@ const authRoute = require('./api/auth');
 const userRoute = require('./api/users');
 const healthCheckRoute = require('./api/healthCheck');
 const errorMiddleware = require('./middlewares/errorMiddleware');
+const cors = require('cors');
 
 const app = express();
+app.use(cors());
 
 app.use('/', healthCheckRoute);
 app.use(bodyParser.json());
