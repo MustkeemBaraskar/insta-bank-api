@@ -8,7 +8,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors());
-
+//we have implemented cord for cross orgin resource sharing
 app.use('/', healthCheckRoute);
 app.use(bodyParser.json());
 
